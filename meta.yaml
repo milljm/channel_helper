@@ -10,8 +10,8 @@ source:
   git_branch: master
 
 build:
-  number: {{ build }}  # [linux,osx]
-  skip: true           # [win]
+  noarch: generic
+  number: {{ build }}
 
 requirements:
   build:
@@ -28,7 +28,7 @@ test:
 about:
   home: https://github.com/milljm/channel_helper
   license: LGPL 2.1
-  summary: 'HIT Parser'
+  summary: 'A simple tool to help with conda channels.'
 
 extra:
   recipe-maintainers:
