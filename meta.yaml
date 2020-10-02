@@ -14,11 +14,9 @@ build:
   skip: true           # [win]
 
 requirements:
-  host:
-    - python
+  build:
     - requests
   run:
-    - python
     - requests
 
 test:
