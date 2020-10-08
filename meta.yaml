@@ -1,5 +1,5 @@
 {% set build = 0 %}
-{% set version = "2020.10.02" %}
+{% set version = "2020.10.08" %}
 
 package:
   name: channel-helper
